@@ -126,6 +126,157 @@ body {
     font-size: 16px;
     text-decoration: none;
     color: #333;
+    padding: 10px 0;
+}
+.nav__categories a:hover{
+    background: #d32020;
+    color: rgb(245, 216, 216);
 }
 
+/* end header */
+.article {
+    display: flex;
+    width: 100%;
+    margin: 50px 0;
+    padding: 0 100px;
+}
 
+.article__left {
+    width: 60%;
+}
+
+.article-images {
+    width: 100%;
+}
+
+.article__right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.article__title {
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.article__author {
+    color: #555;
+    margin-bottom: 10px;
+
+}
+
+.article__date {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.article__text {
+    color: #333;
+    text-decoration: none;
+}
+.article__text:hover{
+    color: rgb(159, 29, 77);
+
+}
+
+.article__text-link {
+    color: red;
+    text-decoration: none;
+    font-weight: 300;
+}
+.article__text-link:hover{
+    color: rgb(159, 29, 77);
+
+}
+
+/* end article */
+
+.form-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+form input {
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: -0.03em;
+    color: var(--black-color);
+    opacity: 0.5;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    margin-bottom: 50px;
+    padding: 10px 0;
+}
+.form__title {
+    font-weight: 400;
+    font-size: 45px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color:  #ff0000;
+    margin-bottom: 15px;
+}
+.form__text {
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color: var(--black-color);
+    margin-bottom: 60px;
+}
+.send-btn {
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 40px;
+    background-color: #ff0000;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.send-btn:hover{
+    cursor: pointer;
+    background: none;
+    color:#ff0000;
+    border: 1px solid #ff0000;
+}
+
+/* end form */
+
+.footer {
+    margin: 50px 0;
+    text-align: center;
+    color: #6c757d;
+}
+.footer p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+ .copyright {
+    color: #adb5bd;
+}
+.terms a{
+    color: #333;
+    margin-top: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.terms a:hover{
+    color: #ea0606;
+    text-decoration: underline;
+}
